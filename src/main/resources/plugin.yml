@@ -1,0 +1,12 @@
+name: LWElytraFly
+version: '1.0'
+main: org.letoworld.lwelytrafly.LWElytraFly
+api-version: '1.16'
+commands:
+  lwelytrafly:
+    description: Команды для LWElytraFly
+    usage: /lwelytrafly <reload>
+permissions:
+  lwelytrafly.reload:
+    description: Позволяет перезагружать конфигурацию плагина
+    default: op
